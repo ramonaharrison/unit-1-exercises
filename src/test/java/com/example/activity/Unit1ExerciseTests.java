@@ -33,9 +33,9 @@ public class Unit1ExerciseTests {
 
     @Before
     public void setUp() throws Exception {
-        // uncomment the following line to pass test 01
-//        mActivity = Robolectric.buildActivity(DeckardActivity.class).create().get();
-//        mAC = Robolectric.buildActivity(DeckardActivity.class).create().start();
+       // uncomment the following line to pass test 01
+        mActivity = Robolectric.buildActivity(DeckardActivity.class).create().get();
+        mAC = Robolectric.buildActivity(DeckardActivity.class).create().start();
     }
 
     @Test
