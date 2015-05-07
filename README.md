@@ -25,8 +25,13 @@ Tests if EditTextAcitivity class exists.
 ##### `test07EditTextActivityLayoutExists()`
 Tests if layout for EditTextActivity exists.
 
-##### `testTextViewCounterExists()`
-Tests if TextView displaying the number of times a button has been clicked exists in main activity.
+##### `test08EditTextActivityTextViewCounterExists()`
+Tests if TextView `R.id.counter` displays the number of times a button has been clicked exists in main activity.
+
+##### `test09EditTextActivityButtonExists()`
+Tests if Button with `click!` text is created after the TextView `R.id.counter`. Every time `R.id.button` is clicked, `R.id.counter` should be incremented by 1.
+
+### Bonus #1 -- try implementing the following exercises as well as the tests.
 
 ##### `testCounterSavesState()`
 Tests if the Activity saves and restores the state of the counter in `OnSaveInstanceState` and `onRestoreInstanceState`.
@@ -41,7 +46,8 @@ Tests if a layout exists for the SocialActivity Class.
 Tests if SocialActivity responds to the `ACTION_SEND` Intent.
 
 ##### `testSocialShareButtonExists()`
-Tests if the Main Activity has a button for social sharing with id "social."
+Tests if the Main Activity has a button for social sharing with id `R.id.social`.
 
-##### Bonus
+#### Bonus #2
 Write your own unit tests, and then implement features to pass those tests.
+Take a look at [Robolectric](http://robolectric.org/) for documentation of the testing framework. Feel free to take a look at some of our own tests in [unit-1-exercises](https://github.com/shurane/unit-1-exercises/tree/master/src/test/java/com/example/activity).
