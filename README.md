@@ -25,4 +25,23 @@ Tests if EditTextAcitivity class exists.
 ##### `test07EditTextActivityLayoutExists()`
 Tests if layout for EditTextActivity exists.
 
+##### `testTextViewCounterExists()`
+Tests if TextView displaying the number of times a button has been clicked exists in main activity.
 
+##### `testCounterSavesState()`
+Tests if the Activity saves and restores the state of the counter in `OnSaveInstanceState` and `onRestoreInstanceState`.
+
+##### `testSocialActivityExists()`
+Tests if SocialActivity class exists.
+
+##### `testSocialActivityLayoutExists()`
+Tests if a layout exists for the SocialActivity Class.
+
+##### `testSocialActivityRespondsToIntent()`
+Tests if SocialActivity opens on the `ACTION_SEND` Intent.
+
+##### `testSocialShareButtonExists()`
+Tests if the Main Activity has a button for social sharing with id "social."
+
+##### Bonus
+Write your own unit tests, and then implement features to pass those tests.
