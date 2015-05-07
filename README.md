@@ -38,7 +38,7 @@ Tests if SocialActivity class exists.
 Tests if a layout exists for the SocialActivity Class.
 
 ##### `testSocialActivityRespondsToIntent()`
-Tests if SocialActivity opens on the `ACTION_SEND` Intent.
+Tests if SocialActivity responds to the `ACTION_SEND` Intent.
 
 ##### `testSocialShareButtonExists()`
 Tests if the Main Activity has a button for social sharing with id "social."
